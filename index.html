@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Оформление заказа</title>
+  </head>
+  <style>
+    .layer1 {
+        margin-left: 40%
+    }
+  </style>
+  <body>
+    <h1>МАГАЗИН ОДЕЖДЫ RE:SIZE STORE</h1>
+    <div class="layer1">
+        <h3>По всем вопросам звоните нам:</h3>
+        <h2>8-800-555-35-35</h2>
+        <h3>Или круглосуточно пишите нам: irem.ashfak@mail.ru</h3>
+    </div>
+    <button type="button" name="show_more">Каталог продукции</button>
+    <button type="button" name="show_more">О нас</button>
+    <button type="button" name="show_more">Как заказать</button>
+    <button type="button" name="show_more">Доставка и оплата</button>
+    <button type="button" name="show_more">Оптовикам</button>
+    <button type="button" name="show_more">Отзывы</button>
+    <button type="button" name="show_more">Статьи</button>
+    <button type="button" name="show_more">Контакты</button>   
+    <input type="search" placeholder="search"> 
+    <input type="submit" value="Найти">
+    <div class="layer1">
+        <h2>Оформление заказа</h2>
+    </div>
+    <form name="test" method="post" action="input1.php">
+        <p>Имя и фамилия: <input type="text" size="80"></p>
+        <p>Контактный телефон: <input type="text" size="30"></p>
+        <p>Контактный email: <input type="text" size="33"></p>
+        <p>Город доставки: <select size="3" multiple name="city[]">
+            <option disabled>Выберите город</option>
+            <option value="Москва">Москва</option>
+            <option selected value="Санкт-Петербург">Санкт-Петербург</option>
+            <option value="Нижний Новгород">Нижний Новгород</option>
+            <option value="Екатеринбург">Екатеринбург</option>
+           </select></p>
+        <p>Адрес доставки: <input type="text" size="80"></p>
+        <p>Комментарии: <textarea name="comment" cols="90" rows="10">
+        </textarea></p>
+        <p><input type="submit" value="Оформить заказ"></p>
+       </form>
+        <p>© RE:SIZE STORE, 2022</p>
+        <p>Магазин одежды</p>
+  </body>
+</html>
